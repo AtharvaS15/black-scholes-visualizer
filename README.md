@@ -1,8 +1,8 @@
 ![Dashboard Screenshot](./images/Black_Scholes_Visualizer_Dashboard.png)
 
-# Black-Scholes Visualizer
+# Options Market Visualizer — Pricing & Greeks
 
-This project is an interactive Streamlit dashboard for exploring European option pricing under the Black-Scholes model. Instead of just computing a single option price, the app visualizes how option value and sensitivities change as you adjust inputs like spot price, strike, volatility, time to maturity, and interest rates. The goal was to make the model more intuitive by turning the math into something you can actually see and interact with.
+An interactive Streamlit dashboard for Black–Scholes pricing of European calls and puts. Change spot price, strike, volatility, time to expiration, and risk-free rate to see how theoretical option values, all five Greeks, payoff profiles, and spot–volatility sensitivity heatmaps respond. This is a model-driven visualizer, not a live market data feed.
 
 ## Features
 - Adjustable parameters for spot, strike, time to maturity, rate, volatility, and option type
